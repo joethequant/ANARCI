@@ -25,7 +25,7 @@ conda install -c bioconda hmmer=3.3.2 biopython -y
 python setup.py install
 
 # # #install packages for progen modeling
-pip install torch tokenizers transformers
+pip install torch tokenizers transformers pandas datasets
 
 # #run test
 ANARCI -i EVQLQQSGAEVVRSGASVKLSCTASGFNIKDYYIHWVKQRPEKGLEWIGWIDPEIGDTEYVPKFQGKATMTADTSSNTAYLQLSSLTSEDTAVYYCNAGHDYDRGRFPYWGQGTLVTVSA
